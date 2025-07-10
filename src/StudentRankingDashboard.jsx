@@ -121,6 +121,7 @@ const StudentRankingDashboard = () => {
     }
   };
 
+
   // Refresh total stats
   const refreshTotalStats = async () => {
     setRefreshing(true);
@@ -141,6 +142,7 @@ const StudentRankingDashboard = () => {
       setRefreshing(false);
     }
   };
+
 
   // Track daily progress
   const trackDailyProgress = async () => {
@@ -181,6 +183,7 @@ const StudentRankingDashboard = () => {
     }
   };
 
+  
   // Initial load
   useEffect(() => {
     loadData();
