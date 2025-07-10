@@ -13,7 +13,7 @@ const StudentRankingDashboard = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   // API Base URL - Update this to your backend URL
-  const API_BASE = 'http://localhost:3000';
+  const API_BASE = 'https://ducs-leetcode-tracker-1.onrender.com';
 
   // Fetch rankings based on type
   const fetchRankings = async (type = 'today') => {
